@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+     
 }
 
 body {
@@ -13,14 +14,16 @@ body {
 }
 
 .banner_section {
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 100px;
+
 }
 
 .text_aera {
     text-align: left;
+    padding-left: 200px;
 }
 
 .flower_title {
@@ -30,6 +33,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+
 }
 
 .description {
@@ -58,9 +62,11 @@ body {
     margin-top: 20px;
 }
 
+
 .flower_pic {
     width: 635px;
     margin-top: 50px;
+    padding-right: 200px;
 }
 
 /* end header */
@@ -85,16 +91,18 @@ body {
 }
 
 .inner_container {
-    margin: 50px 200px 0px 200px;
+    margin-top: 100px;
+    
 
 
-}
+} 
 
 .flower_item {
     margin-top: 30px;
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 15px;
+     
 
 }
 
@@ -103,26 +111,30 @@ body {
 
 }
 
-.pink_bg {
+.pink_flower img{
+    width: 300px;
+    height: 400px;
+     
+}
+
+ .pink_bg {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 80px 40px 0px 40px;
-
-
-}
-
-.pink_bgtwo {
+} 
+.pink_bgtwo{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 80px 40px 55px 40px;
+    padding: 80px 40px 0px 40px;
 
 }
+
 
 .pink_bglast {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 40px 40px 0px 40px;
-}
+    padding: 80px 40px 0px 40px;
+} 
 
 .pink_title a {
     color: #272727;
@@ -237,9 +249,10 @@ span {
 
 .instagram_flower {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
+     
 
 
 }
@@ -250,17 +263,17 @@ span {
 
 }
 
-.instagram_container {
-    padding: 20px 50px 20px 50px;
-}
+.subscribe_aera{
+    margin-top: 30px;
 
+}
 .subscribe_container {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto;
     background-image: url('imgs/Rectangle\ 9.png');
     background-size: cover;
     text-align: center;
-    padding: 100px 50px;
+    padding: 100px 80px;
 
 }
 
@@ -333,4 +346,39 @@ footer {
     line-height: normal;
     opacity: 40%;
     margin-top: 20px;
+}
+
+.testimonial_aera{
+    max-width: 1050px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url('imgs/testimonials-background-img.jpg');
+    background-size: cover;
+    padding: 100px 130px;
+    border-radius: 5px;
+}
+.testimonial_text h2{
+    font-size: 25px;
+    color: #4B4747;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+}
+.testimonial_text p{
+    font-size: 14px;
+    color: #4B4747;
+    margin-top: 25px;
+}
+
+.fa-solid{
+    font-size: 40px;
+    color: #4B4747;
+    transition: 0.5s;
+    
+}
+.fa-solid:hover{
+    color: #E55473;
 }
